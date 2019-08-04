@@ -10,7 +10,7 @@ class ImageProccess():
 
         #resizing the image and replacing (img) variable
         img = cv2.resize(img, (300,300))  
-
+   
         # creating rectangle in img and replacing img again
         img = cv2.circle(img,(150,150),100, (0,0,255),3) 
        
